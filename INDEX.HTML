@@ -2,37 +2,86 @@
 <html>
     <head>
  <title>Who Am I?</title>
-  <link rel="stylesheet" href="style.css">  
+ <link rel="stylesheet" href="style.css">      
     </head>
 <body>
+    <nav class="navbar">
+<h2>My website</h2>
+<div class="nav-links">
+    <a href="#hero">Home</a>
+    <a href="#cards">Cards</a>
+    <a href="#certificate">certificate</a>
+    <a href="#learning-coding">Learning coding</a>
+    <a href="#form-section">Form</a>
+  
+</div>
+
+    </nav>
+    <div id="hero">
+        <span class="badge">New project</span>
+        <div class="hero-text">
 <h1>Who Am I?</h1>
-<p> I am  Basant Alziq and iam learning coding using Sprix</p>
+<p class="highlight"> I am  Basant Alziq and iam learning coding using Sprix</p>
    <button>Start learning</button>
    <a href="https://www.google.com">Open website</a>
+        </div>
+   <img src="learncodefaster.jpg" alt="Person learning coding">
+    </div>
 
+<section id="cards" class="cards-section">
     <h2>My hobbies</h2>
+    <div class="cards-container">
+<div class="card">
+    <img src="IMG_5799-2-1920x1080.jpeg" alt="A page of journaling">
 <h3>Journaling</h3>
 <p>I like Journaling to document my memories</p>
 <button> Tap here to get some inspiration</button>
+</div>
+
+<div class="card">
+<img src="gaming_booths_collegiate_ac.jpg" alt="Video games">
 <h3>Video games</h3>
 <p>I enjoy playing video games with my friends </p>
-<button>Recommendations for some video games</button>
+<button>Recommendations for video games</button>
+</div>
 
+<div class="card">
+<img src="coding-1.jpg" alt="coding">
 <h3>Coding</h3>
 <p>I enjoy building websites</p>
 <button>Read more</button>
+</div>
+    </div>
+</section>
+
+<section id="certificate" class="certificate"> 
+<div class="highlight">
 <h2>What are my achievements? </h2>
 <p> I scored 85% on the TOFAS exam in the first term and 100% in the second term</p>
+<img src="certificate.png" alt="certificate">
+</div>
+
+</section>
 <h3>You can see my certificates here on  my Instagram account</h3>
 <a href="https://www.instagram.com">My Insta</a>
- 
+
+<section id="learning-coding" class="coding"> 
 <h4>Here are some videos that can teach you coding:</h4>
 <button>Tap to see videos</button>
-
+</section>
+<section class="banner">
+    <img src="coding-background-9izlympnd0ovmpli.jpg" alt="coding">
+    
+<div class="banner-text">
 <h6>What do you wait for? Build your first Web Page now</h6>
 <p>Use HTML and CSS to create layout</p>
 <button>Start Now</button>
+    </div>
+    
+</section>
 
+<section id="form-section" class="form-section"> 
+    <div class="card"> 
 <h5>If you need any help I will be here for you </h5>
 <p> All you have to do is to fill out this form below:</p>
 
@@ -40,10 +89,13 @@
 <label for="name">Your name</label>
 <input type="text" id="name" placeholder="Enter your full name">
 <br>
-<label for="number">Your phone number</label>
-<input type="number" id="number" placeholder="Enter your phone number">
+<label for="name">Your phone number</label>
+<input type="text" id="name" placeholder="Enter your phone number">
 <br>
 <button type="submit">Submit</button>
 </form> 
+    </div>
+</section>
+
 </body>
 </html>

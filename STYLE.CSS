@@ -3,7 +3,14 @@ color: rgb(149, 52, 84);
 font-size: 55px;
 text-align: center;
 }
-
+.highlight{font-family: 'Times New Roman', Times, serif;
+color: rgb(230, 36, 100);
+font-weight: bold;
+font-size: larger;
+margin-bottom: 26px;
+margin-top: 1px;
+margin-left: 10px;
+}
 h2,
 h3,
 h4,
@@ -29,6 +36,9 @@ a{
 a:hover{
     background-color:rgb(206, 204, 204) ;
 }
+#hero{
+    border-radius: 15px;
+}
 button{
 padding: 15px  30px;
 color: brown;
@@ -40,6 +50,10 @@ border-radius: 10px;
 }
 button:hover{
     background-color: rgb(205, 201, 201);
+}
+label{
+color:rgb(230, 36, 100);
+font-size: 30px;
 }
 input{
 font-size: larger;
@@ -59,9 +73,81 @@ outline: none;
 border-color: brown;
 background-color: brown;
 }
+#hero img{
+width: 38%;
+border-radius: 50px;
+}
+.card img{
+width: 100%;
+border-radius:25px;
+margin-top: 45px;
+}
+.cards-container{
+display: flex;
+gap: 25px;
+}
+section{
+margin-top: 45px;
+}
+#hero{
+display: flex;
+align-items:center;
+gap: 10px;
+position: relative;
+}
+.highlight img{
+width: 55%;
+border-radius: 10px;
+display: flex;
+}
+.badge{
+    position: absolute;
+    top: 1px;
+    right: 24px;
+    border-radius: 15px;
+    background-color: rgb(221, 120, 120);
+    color: aliceblue;
+    padding: 10px 15px;
+font-size: 20px;
+
+}
+.navbar{
+padding: 10px 20px;
+border-radius: 15px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.nav-links{
+    display: flex;
+    gap: 15px;
+}
+.nav-links a{
+    color: black;
+    text-decoration: wavy;
+    font-weight: bold;
+}
+.banner img{
+width: 100%;
+display: block;
+}
+
+.banner{
+position: relative;
+margin-top: 30px;
+overflow: hidden;
+border-radius: 10px;
+}
 h6{
  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 font-size: 25px;
 font-weight: bolder;
-color: brown;
+color: aliceblue;
+}
+.banner-text{
+position: absolute;
+top: 30px;
+left: 30px;
+color: aliceblue;
+max-width: 400px;
 }
